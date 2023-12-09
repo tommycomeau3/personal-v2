@@ -6,6 +6,9 @@
     <title>Tommy Comeau | Full Stack Developer</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/91ced6fe6d.js" crossorigin="anonymous"></script>
+    <script src="index.js" defer></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
 </head>
 <body>
     <nav>
@@ -24,14 +27,39 @@
                 <a href="#contact" class="nav-link">Contact</a>
             </li>
             <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mobile-menu">
-                    <path d="M4 6l16 0"></path>
-                    <path d="M4 12l16 0"></path>
-                    <path d="M4 18l16 0"></path>
-                </svg>
+                <button class="mobile-nav-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mobile-menu">
+                        <path d="M4 6l16 0"></path>
+                        <path d="M4 12l16 0"></path>
+                        <path d="M4 18l16 0"></path>
+                    </svg>
+                </button>
             </li>
         </ul>
     </nav>
+
+    <div class="mobile-navigation">
+        <button>
+            <span>
+                <i class="fa-solid fa-xmark"></i>
+            </span>
+        </button>
+        <ul>
+            <li>
+                <a href="#home" class="mobile-nav-link">Home</a>
+            </li>
+            <li>
+                <a href="#about" class="mobile-nav-link">About</a>
+            </li>
+            <li>
+                <a href="#projects" class="mobile-nav-link">Projects</a>
+            </li>
+            <li>
+                <a href="#contact" class="mobile-nav-link">Contact</a>
+            </li>
+        </ul>
+    </div>
+
     <section class="hero" id="home">
         <div class="container">
             <div class="content">

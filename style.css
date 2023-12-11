@@ -801,3 +801,16 @@ footer h3 {
         right: 1rem;
     }
 }
+
+@media (max-width: 390px) {
+    .mobile-menu {
+        display: flex;
+        background-color: white;
+        color: black;
+    }
+
+    .mobile-menu:hover {
+        color: #147efb;
+        transition: color 0.5s ease;
+    }
+}

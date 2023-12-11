@@ -803,6 +803,10 @@ footer h3 {
 }
 
 @media (max-width: 390px) {
+    .mobile-nav-toggle {
+        background-color: white;
+    }
+    
     .mobile-menu {
         display: flex;
         background-color: white;

@@ -813,4 +813,12 @@ footer h3 {
         color: #147efb;
         transition: color 0.5s ease;
     }
+
+    .mobile-navigation {
+        background-color: white;
+    }
+
+    .mobile-navigation button span {
+        color: black;
+    }
 }

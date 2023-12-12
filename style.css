@@ -399,6 +399,25 @@ mobile-nav-link {
     padding: 1rem 1.3rem;
 }
 
+.links {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.links a {
+    align-items: center;
+    display: flex;
+    color: #2d2e32;
+    font-size: 1.7rem;
+    font-weight: 500;
+    gap: 5px;
+    text-decoration: none;
+    font-family: 'Poppins','sans-serif';
+}
+
 .contact {
     background-color: #fff;
     padding: 11rem 0;
@@ -796,12 +815,6 @@ footer h3 {
     }
 }
 
-@media (max-width: 375px) {
-    .hero-text img {
-        right: 1rem;
-    }
-}
-
 @media (max-width: 390px) {
     .mobile-nav-toggle {
         background-color: white;
@@ -829,5 +842,11 @@ footer h3 {
     .mobile-navigation button span:hover {
         color: #147efb;
         transition: color 0.5s ease;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-text img {
+        right: 1rem;
     }
 }
